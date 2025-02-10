@@ -45,11 +45,11 @@ module.exports = {
                     .setColor(0x0000FF)
                     .setTitle(randomMeme.name)
                     .setImage(randomMeme.url)
-                    .setFooter({ text: 'Powered by imgflip' });
+                    .setFooter({ text: 'Powered by X Server' });
 
                 await interaction.reply({ embeds: [embed] });
             } else {
-                throw new Error('Failed to fetch memes from imgflip');
+                throw new Error('Failed to fetch memes');
             }
         } catch (error) {
             console.error('Error fetching meme:', error);
@@ -72,11 +72,11 @@ module.exports = {
                     .setColor(0x0000FF)
                     .setTitle(randomMeme.name)
                     .setImage(randomMeme.url)
-                    .setFooter({ text: 'Powered by imgflip' });
+                    .setFooter({ text: 'Powered by X Server' });
 
                 await message.channel.send({ embeds: [embed] });
             } else {
-                throw new Error('Failed to fetch memes from imgflip');
+                throw new Error('Failed to fetch memes');
             }
         } catch (error) {
             console.error('Error fetching meme:', error);
