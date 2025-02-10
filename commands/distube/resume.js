@@ -83,7 +83,7 @@ module.exports = {
                         .setAuthor({ 
                             name: lang.resumeAlreadyResumedTitle, 
                             iconURL: musicIcons.wrongIcon,
-                            url: "https://discord.gg/xQF9f9yUEM"
+                            url: "https://discord.gg/SP2JAy6r8T"
                         })
                         .setFooter({ text: 'Distube Player', iconURL: musicIcons.footerIcon })
                         .setDescription(lang.resumeAlreadyResumedMessage);
