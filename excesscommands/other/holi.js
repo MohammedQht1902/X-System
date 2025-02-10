@@ -14,7 +14,7 @@ module.exports = {
         let daysLeft = Math.ceil((holi - today) / (1000 * 60 * 60 * 24));
 
         const embed = new EmbedBuilder()
-            .setTitle('🎨 Holi Countdown 🌈')
+            .setTitle('🎨 Holi Countdown ')
             .setDescription(`🌸 **${daysLeft} days left until Holi!**\n📅 **Next Holi:** March 14, ${holi.getFullYear()}`)
             .setColor('#ff33cc')
             .setTimestamp();
