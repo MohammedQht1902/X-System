@@ -68,7 +68,7 @@ module.exports = {
                 .setAuthor({
                     name: lang.volumeSuccessTitle,
                     iconURL: musicIcons.volumeIcon,
-                    url: "https://discord.gg/xQF9f9yUEM"
+                    url: "https://discord.gg/SP2JAy6r8T"
                 })
                 .setDescription(lang.volumeSuccessMessage.replace('{volumeLevel}', volumeLevel))
                 .setFooter({ text: 'DisTube Player', iconURL: musicIcons.footerIcon });
