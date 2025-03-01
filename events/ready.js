@@ -6,10 +6,10 @@ module.exports = {
     execute(client) {
   
         const activities = [
-            { name: 'X System', type: ActivityType.Watching },
-            { name: 'X Games', type: ActivityType.Playing },
-            { name: 'X Server', type: ActivityType.Streaming },
-            { name: 'X Music', type: ActivityType.Listening },
+            { name: 'MTNEWS on Kick', type: ActivityType.Watching },
+            { name: 'ASWAYZ Community', type: ActivityType.Playing },
+            { name: 'https://kick.com/mtnews', type: ActivityType.Streaming },
+            { name: 'ASWAYZ AJR', type: ActivityType.Listening },
         ];
 
      
